@@ -1,0 +1,91 @@
+.yyui-loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.yyui-loading01 {
+  position: relative;
+  margin: 0px auto;
+  top: 50%;
+  margin-top: -15px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+.yyui-loading01 > div {
+  background-color: #c1c1c1;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  -moz-animation: stretchdelay 1.2s infinite ease-in-out;
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+.yyui-loading01 .yyui-loading2 {
+  -moz-animation-delay: -1.1s;
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+.yyui-loading01 .yyui-loading3 {
+  -moz-animation-delay: -1s;
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+.yyui-loading01 .yyui-loading4 {
+  -moz-animation-delay: -0.9s;
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+.yyui-loading01 .yyui-loading5 {
+  -moz-animation-delay: -0.8s;
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+@-moz-keyframes stretchdelay {
+  0%,
+    40%,
+    100% {
+    -moz-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  20% {
+    -moz-transform: scaleY(0.1);
+    transform: scaleY(0.1);
+  }
+}
+@-webkit-keyframes stretchdelay {
+  0%,
+    40%,
+    100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  20% {
+    -webkit-transform: scaleY(0.1);
+    transform: scaleY(0.1);
+  }
+}
+@keyframes stretchdelay {
+  0%,
+    40%,
+    100% {
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  20% {
+    -moz-transform: scaleY(0.1);
+    -ms-transform: scaleY(0.1);
+    -webkit-transform: scaleY(0.1);
+    transform: scaleY(0.1);
+  }
+}
